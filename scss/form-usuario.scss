@@ -45,12 +45,18 @@
             .form-item {
                 padding: 10px 0;
                 
+                
                 input {
                     width: 100%;
                     padding: 10px 5px;
                 }
 
                 button {
+
+                    a {
+                        text-decoration: none;
+                        color: white;
+                    }
                     width: 100%;
                     padding: 10px;
                     background-color: base.$user-blue;

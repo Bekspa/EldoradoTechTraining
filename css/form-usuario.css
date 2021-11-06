@@ -60,6 +60,10 @@ html, body {
   font-weight: 500;
   border-radius: 5px;
 }
+.container .form-login .right .form-item button a {
+  text-decoration: none;
+  color: white;
+}
 .container .form-login .right .form-item button:hover {
   filter: brightness(0.9);
 }
