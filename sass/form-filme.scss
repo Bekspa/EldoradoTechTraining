@@ -50,26 +50,22 @@
                     padding: 10px 5px;
                 }
 
-                button {
-
-                    a {
-                        text-decoration: none;
-                        color: white;
-                    }
-                    
-                    width: 100%;
-                    padding: 10px;
-                    background-color: base.$user-blue;
+                a {
+                    display: flex;
+                    background-color: rgb(63, 63, 245);
+                    text-decoration: none;
                     color: white;
-                    font-size: 1rem;
-                    font-weight: 500;
+                    padding: 15px 30px;
+                    justify-content: center;
+                    align-items: center;
                     border-radius: 5px;
                 }
 
-                button:hover {
+                a:hover {
                     filter: brightness(0.9);
                 }
-            }    
+                
+            }
         }
         
     }
