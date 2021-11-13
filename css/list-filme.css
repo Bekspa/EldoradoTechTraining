@@ -28,6 +28,7 @@ header .container {
   background-color: #110e0e;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 20px 0;
 }
 header .container ul {
@@ -41,6 +42,7 @@ header .container ul li {
 header .container ul li a {
   text-decoration: none;
   color: white;
+  line-height: 1rem;
 }
 header .container .button-header {
   text-decoration: none;
