@@ -1,0 +1,93 @@
+@use 'base';
+
+$color-filme: rgb(17, 14, 14);
+
+footer {
+    background-color: base.$container-color;
+    padding: 30px 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-top: 2px solid red;
+}
+
+header {
+    background-color: $color-filme;
+    border-bottom: 2px solid red;
+    
+    .container {
+        width: 90%;
+        margin: 0 auto;
+        background-color: $color-filme;
+        display: flex;
+        justify-content: space-between;
+
+        padding:20px 0;
+
+        ul {
+            color: white;
+            list-style: none;
+            
+
+            li {
+                float: left;
+                padding-right: 20px;
+                
+                a {
+                    text-decoration: none;
+                    color: white
+                }
+            }
+        }
+
+        .button-header {
+            text-decoration: none;
+            background-color: rgb(63, 63, 245);
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+        
+    }
+}
+
+.container {
+    display: flex;
+    background-color: base.$user-blue;
+    padding: 10px 0;
+
+    .filmes {
+        width: 90%;
+        margin: 0 auto;        
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+        
+       
+      
+        .filme-item {
+            padding: 10px;
+            background-color: white;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            
+            .filme-details {
+                display: flex;
+                flex-direction: column;
+
+                img {
+                    width: 278px;
+                    height: 415px;
+                }
+            }
+        }
+
+        .filme-item:hover {
+            filter: brightness(0.9);
+        }
+    }
+}
