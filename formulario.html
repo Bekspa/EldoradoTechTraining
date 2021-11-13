@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sass/formulario.css">
+    <link rel="stylesheet" href="css/list-filme.css">
+
+
+    <title>Ediçao de Filme</title>
+</head>
+
+<body style="background-color: #a397ec;">
+    <header>
+        <div class="container">
+            <aside>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="listagem.html">Edicao </a></li>
+                    <li><a href="list-filme.html">Lista </a></li>
+                    <li><a href="index.html">Sair</a></li>
+                </ul>
+            </aside>
+        </div>
+    </header>
+
+    <main>
+        <div id="contenedor">
+            <div class="row">
+                <h3><img src="img/portadas/editar-arquivo.png" id="icono">Editando Filme: <strong>Adverger End Game</strong></h3> 
+            </div>
+            <fieldset>
+                <form action="">
+                    <div class="form-item" >
+                        <div class="col-2">
+                            <strong>Imagem</strong>  
+                        </div>                                          
+                        <input type="file" name="imagem" placeholder="Imagem">
+                    </div>
+    
+                    <div class="form-item" >
+                        <div class="col-2">
+                            <strong>Categoria</strong>
+                        </div>                              
+                        <select name="categoria" id="categoria">
+                            <option value="volvo">Accion</option>
+                            <option value="saab">Romance</option>
+                            <option value="mercedes">Comedia</option>
+                            <option value="audi">Animacion</option>
+                          </select>
+                    </div>
+                    <div class="form-item">
+                        <div class="col-2">
+                            <strong>Duracao</strong>
+                        </div>  
+                        <input type="time" name="duracion" placeholder="duracion">
+                    </div>
+                    <div class="form-item">
+                        <div class="col-2">
+                            <strong>Synopsis</strong>
+                        </div>
+                        <textarea name="Synopsis" cols="40" rows="5"></textarea>
+                    </div>
+                    <div>
+                        <a href="listagem.html"><button> Cancelar </button></a>
+                        <a href="listagem.html"><button> Salvar </button></a>
+                    </div>
+                   
+                </form>
+
+            </fieldset>
+            <div class="imgfondoPosition"><img src="img/fondo.png" class="imgfondo"></div>
+         
+        </div>
+       
+    </main>
+
+
+</body>
+
+</html>

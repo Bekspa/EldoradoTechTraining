@@ -1,37 +1,56 @@
-html {
+html, body {
   background-color: #a397ec;
 }
 
 #contenedor {
-  margin-top: 100px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  border-radius: 10px;
-  padding: 20px;
-  -webkit-box-pack: left;
-      -ms-flex-pack: left;
-          justify-content: left;
+  width: 85%;
+  height: 85%;
   background-color: white;
-  border-radius: 0px;
+  border-radius: 9px;
+  margin: 30px auto 0px auto;
 }
+
+.imgfondoPosition {
+  position: absolute;
+  top: 200px;
+  left: 700px;
+}
+
+.imgfondo {
+  width: 500px;
+  height: 500px;
+}
+
+
+
+.title2 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: large;
+  color: #15076c;
+  padding: 15px;
+}
+.ancho {
+  height: 30px;
+}
+.anchoPortada {
+  width: 50px;
+}
+.anchoTd {
+  width: 450px;
+}
+
 
 table {
   border-collapse: collapse;
-  width: 500px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 600px;
+  padding: 15px;
+  margin: 20px;
+  border-spacing: 10px 5px;
+
 }
 
 tr {
   border: 1pt solid #15076c;
-  padding: 10px;
 }
 
 #icono {

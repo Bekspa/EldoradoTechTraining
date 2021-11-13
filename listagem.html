@@ -6,51 +6,83 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="sass/listagem.css">
+    <link rel="stylesheet" href="css/list-filme.css">
+
+
     <title>Listagem de Filmes</title>
 </head>
 
-<body>
-
+<body style="background-color: #a397ec;">
     <header>
-        <div id="menu">
+        <div class="container">
             <aside>
                 <ul>
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">Novo Filme</a></li>
-                    <li><input type="password" placeholder="password" />
-                        <button>Buscar</button>
-                    </li>
+                    <li><a href="listagem.html">Edicao </a></li>
+                    <li><a href="list-filme.html">Lista </a></li>
+                    <li><a href="index.html">Sair</a></li>
                 </ul>
             </aside>
 
-
+            <span><input class="form" type="text" placeholder="nome do filme" /> <a class="button-header"
+                    href="filme-form.html">Bucar filme</a></span>
         </div>
     </header>
 
-    <div id="contenedor">
-        <div id="rigth">
-            <div>
-                <h2 class="title">Listagem Films</h2>
+    <main>
+        <div id="contenedor">
+            <div class="row">
+                <h2 class="title2">Listagem Films</h2>
             </div>
             <div>
-                <table>
+                <table id="table"  >
                     <tr>
-                        <td><img src="img/portadas/portadas.jpg" class="portada"></td>
-                        <td>
-                            <div><strong>Titulo:</strong> Adverger End Game</div>
-                            <div><strong>duracion: </strong> 2hrs:24min</div>
-                            <div><strong>Categoria: </strong> Accion</div>
+                        <td class="anchoPortada"><img src="img/portadas/portadas.jpg" class="portada"></td>
+                        <td class="anchoTd">
+                            <div class="ancho"><strong>Titulo:</strong> Adverger End Game</div>
+                            <div class="ancho"><strong>duracion: </strong> 2hrs:24min</div>
+                            <div class="ancho"><strong>Categoria: </strong> Accion</div>
+                            <div class="ancho"><strong>descripcao: </strong> Pelicula de marvel</div>
+                            <div class="ancho">
+                                <a href="formulario.html"><img src="img/portadas/editar-arquivo.png" id="icono"></a>
+                                <img src="img/portadas/delete.png" id="icono">
+                            </div>
                         </td>
-                        <td>
-                            <img src="img/portadas/editar-arquivo.png" id="icono">
-                            <img src="img/portadas/delete.png" id="icono">
+                    </tr>
+                    <tr>
+                        <td class="anchoPortada"><img src="img/portadas/portadas.jpg" class="portada"></td>
+                        <td class="anchoTd">
+                            <div class="ancho"><strong>Titulo:</strong> Adverger End Game</div>
+                            <div class="ancho"><strong>duracion: </strong> 2hrs:24min</div>
+                            <div class="ancho"><strong>Categoria: </strong> Accion</div>
+                            <div class="ancho"><strong>descripcao: </strong> Pelicula de marvel</div>
+                            <div class="ancho">
+                                <a href="formulario.html"><img src="img/portadas/editar-arquivo.png" id="icono"></a>
+                                <img src="img/portadas/delete.png" id="icono">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="anchoPortada"><img src="img/portadas/portadas.jpg" class="portada"></td>
+                        <td class="anchoTd">
+                            <div class="ancho"><strong>Titulo:</strong> Adverger End Game</div>
+                            <div class="ancho"><strong>duracion: </strong> 2hrs:24min</div>
+                            <div class="ancho"><strong>Categoria: </strong> Accion</div>
+                            <div class="ancho"><strong>Synopsis: </strong> Pelicula de marvel</div>
+                            <div class="ancho">
+                                <a href="formulario.html"><img src="img/portadas/editar-arquivo.png" id="icono"></a>
+                                <img src="img/portadas/delete.png" id="icono">
+                            </div>
                         </td>
                     </tr>
                 <table>
             </div>
+            <div class="imgfondoPosition"><img src="img/fondo.png" class="imgfondo"></div>
         </div>
 
-    </div>
+
+    </main>
+
 
 </body>
 

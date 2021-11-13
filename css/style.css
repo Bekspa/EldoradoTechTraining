@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+}
+h1{
+    color: red ;
+}
+.corl{
+    background-color: red;
+}
+
+.efeito:hover{
+    cursor:pointer;
+    transition-duration: 1s;
+    transform: scale(1.5, 1.5);
+}
+
+.space-1{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.space{
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.back-fund-input{
+    background-color: red;
+}
