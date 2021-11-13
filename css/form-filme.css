@@ -59,6 +59,10 @@ html, body {
   padding: 15px 30px;
   justify-content: center;
   align-items: center;
+  border-radius: 5px;
+}
+.container .form-filme .right .form-item a:hover {
+  filter: brightness(0.9);
 }
 
 /*# sourceMappingURL=form-filme.css.map */

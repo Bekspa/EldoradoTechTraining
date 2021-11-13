@@ -51,24 +51,22 @@
                     padding: 10px 5px;
                 }
 
-                button {
-
-                    a {
-                        text-decoration: none;
-                        color: white;
-                    }
-                    width: 100%;
-                    padding: 10px;
+                a {
                     background-color: base.$user-blue;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 15px 30px;
+                    text-decoration: none;
                     color: white;
-                    font-size: 1rem;
-                    font-weight: 500;
                     border-radius: 5px;
                 }
 
-                button:hover {
+                a:hover {
                     filter: brightness(0.9);
                 }
+
+                
             }    
         }
         
