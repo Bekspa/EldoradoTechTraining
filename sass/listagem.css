@@ -1,0 +1,92 @@
+html, body {
+  background-color: #a397ec;
+}
+
+#contenedor {
+  width: 85%;
+  height: 85%;
+  background-color: white;
+  border-radius: 9px;
+  margin: 30px auto 0px auto;
+}
+
+.imgfondoPosition {
+  position: absolute;
+  top: 200px;
+  left: 700px;
+}
+
+.imgfondo {
+  width: 500px;
+  height: 500px;
+}
+
+
+
+.title2 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: large;
+  color: #15076c;
+  padding: 15px;
+}
+.ancho {
+  height: 30px;
+}
+.anchoPortada {
+  width: 50px;
+}
+.anchoTd {
+  width: 450px;
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 600px;
+  padding: 15px;
+  margin: 20px;
+  border-spacing: 10px 5px;
+
+}
+
+tr {
+  border: 1pt solid #15076c;
+}
+
+#icono {
+  width: 20px;
+  height: 20px;
+}
+
+.portada {
+  padding: 5px;
+  width: 100px;
+  height: 130px;
+}
+
+#menu ul {
+  padding: 5px;
+  margin: 0px;
+  background-color: #15076c;
+  list-style: none;
+}
+
+#menu ul li {
+  display: inline;
+}
+
+#menu ul li a {
+  padding: 5px 10px;
+  display: inline-block;
+  background-color: #15076c;
+  color: #fcf6f6;
+  text-decoration: none;
+  border-bottom: 3px solid #EDEDED;
+}
+
+#menu ul li a:hover {
+  background-color: #D6D6D6;
+  color: #6D6D6D;
+  border-bottom: 3px solid #0f912b;
+}
+/*# sourceMappingURL=listagem.css.map */

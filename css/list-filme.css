@@ -3,10 +3,13 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
+ 
+
 }
 
 html, body {
   height: 100%;
+  background-color: #a397ec;
 }
 
 footer {
@@ -15,17 +18,17 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-top: 2px solid red;
+  border-top: 2px solid rgb(0, 8, 255);
 }
 
 header {
-  background-color: #110e0e;
-  border-bottom: 2px solid red;
+  background-color: #15076c;
+  border-bottom: 2px solid rgb(41, 48, 232);
 }
 header .container {
   width: 90%;
   margin: 0 auto;
-  background-color: #110e0e;
+  background-color: #15076c;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -54,7 +57,7 @@ header .container .button-header {
 
 .container {
   display: flex;
-  background-color: #1e1e6d;
+  background-color: #a397ec;
   padding: 10px 0;
 }
 .container .filmes {
