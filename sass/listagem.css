@@ -1,0 +1,60 @@
+html {
+  background-color: #a397ec;
+}
+
+#contenedor {
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  border-radius: 10px;
+  padding: 20px;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  background-color: white;
+  border-radius: 0px;
+}
+
+.container {
+  border-color: #15076c;
+  border: solid 1px;
+}
+
+.portada {
+  width: 100px;
+  height: 130px;
+}
+
+#menu ul {
+  padding: 5px;
+  margin: 0px;
+  background-color: #15076c;
+  list-style: none;
+}
+
+#menu ul li {
+  display: inline;
+}
+
+#menu ul li a {
+  padding: 5px 10px;
+  display: inline-block;
+  background-color: #15076c;
+  color: #fcf6f6;
+  text-decoration: none;
+  border-bottom: 3px solid #EDEDED;
+}
+
+#menu ul li a:hover {
+  background-color: #D6D6D6;
+  color: #6D6D6D;
+  border-bottom: 3px solid #0f912b;
+}
+/*# sourceMappingURL=listagem.css.map */

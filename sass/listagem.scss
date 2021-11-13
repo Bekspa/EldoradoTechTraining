@@ -1,0 +1,53 @@
+@import "./fontawesome/scss/fontawesome.scss";
+@import "./fontawesome/scss/solid.scss";
+@import "./fontawesome/scss/brands.scss";
+
+html {
+    background-color: #a397ec;
+  }
+  #contenedor {
+    margin-top: 100px;  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    padding: 20px;
+    justify-content: left;
+    background-color: white;
+    border-radius: 0px;
+}
+#container {
+    padding: 20px;    
+    width: 70%;
+    border-color: #15076c;
+    border: solid 1px;
+    
+}
+.portada {
+    width: 100px;
+    height: 130px;
+}
+#menu ul {
+    padding:5px;
+    margin:0px;
+    background-color:#15076c;
+    list-style:none;
+}
+
+#menu ul li { display: inline; }
+
+#menu ul li a {
+    padding: 5px 10px;
+    display: inline-block;
+
+    background-color:#15076c;
+    color: rgb(252, 246, 246);
+    text-decoration: none;
+    border-bottom:3px solid #EDEDED;
+}
+
+#menu ul li a:hover {
+    background-color:#D6D6D6;
+    color: #6D6D6D;
+    border-bottom:3px solid #0f912b;
+}
