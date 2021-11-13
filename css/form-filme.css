@@ -51,20 +51,17 @@ html, body {
   width: 100%;
   padding: 10px 5px;
 }
-.container .form-filme .right .form-item button {
-  width: 100%;
-  padding: 10px;
-  background-color: #1e1e6d;
-  color: white;
-  font-size: 1rem;
-  font-weight: 500;
-  border-radius: 5px;
-}
-.container .form-filme .right .form-item button a {
+.container .form-filme .right .form-item a {
+  display: flex;
+  background-color: #3f3ff5;
   text-decoration: none;
   color: white;
+  padding: 15px 30px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
 }
-.container .form-filme .right .form-item button:hover {
+.container .form-filme .right .form-item a:hover {
   filter: brightness(0.9);
 }
 
