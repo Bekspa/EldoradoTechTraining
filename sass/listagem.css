@@ -22,12 +22,25 @@ html {
   border-radius: 0px;
 }
 
-.container {
-  border-color: #15076c;
-  border: solid 1px;
+table {
+  border-collapse: collapse;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+tr {
+  border: 1pt solid #15076c;
+  padding: 10px;
+}
+
+#icono {
+  width: 20px;
+  height: 20px;
 }
 
 .portada {
+  padding: 5px;
   width: 100px;
   height: 130px;
 }

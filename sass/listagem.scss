@@ -1,7 +1,3 @@
-@import "./fontawesome/scss/fontawesome.scss";
-@import "./fontawesome/scss/solid.scss";
-@import "./fontawesome/scss/brands.scss";
-
 html {
     background-color: #a397ec;
   }
@@ -16,14 +12,28 @@ html {
     background-color: white;
     border-radius: 0px;
 }
-#container {
-    padding: 20px;    
-    width: 70%;
-    border-color: #15076c;
-    border: solid 1px;
-    
+
+table {
+    border-collapse: collapse;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+  
+  tr {
+    border: 1pt solid #15076c;
+    padding:10px;
+  }
+
+
+#icono {
+  width: 20px;
+  height: 20px;
 }
+
 .portada {
+    padding: 5px;
     width: 100px;
     height: 130px;
 }
@@ -39,7 +49,6 @@ html {
 #menu ul li a {
     padding: 5px 10px;
     display: inline-block;
-
     background-color:#15076c;
     color: rgb(252, 246, 246);
     text-decoration: none;
