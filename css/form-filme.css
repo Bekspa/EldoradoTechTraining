@@ -9,14 +9,6 @@ html, body {
   height: 100%;
 }
 
-.container {
-  background-color: #8484f7;
-  height: 100%;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 .container .form-filme {
   height: 90vh;
   width: 95vw;

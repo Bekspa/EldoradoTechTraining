@@ -1,33 +1,45 @@
 html,body {
-    background-color: #a397ec;
-  }
+  background-color: #a397ec;
+}
 
-  #contenedor {
-    width: 85%;
-    height: 85%;
-    display: flex;
-    background-color: white;
-    border-radius: 9px;
-    margin: 30px auto 0px auto;
-   
+#contenedor {
+  margin-bottom:50px;
+  margin-top: 40px;
+  margin-left: 10%;
+  margin-right: 50px;
+  padding-bottom: 40px;
+  background-color: #EDEDED;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  border-radius: 10px;      
 }
 
 .title2 {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: large;
+  font-size: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
 }
-table {
-    border-collapse: collapse;
-    width: 500px;
-    margin-left: auto;
-    margin-right: auto;
 
-  }
+table {
+  border-collapse: collapse;
+  width: 500px;
+  margin-left: 40px;
+    
+}
   
-  tr {
-    border: 1pt solid #15076c;
-    padding:10px;
-  }
+tr {
+  border: 1pt solid #15076c;
+  padding:10px;
+}
 
 
 #icono {
@@ -36,30 +48,48 @@ table {
 }
 
 .portada {
-    padding: 5px;
-    width: 100px;
-    height: 130px;
+  padding: 5px;
+  width: 100px;
+  height: 130px;
 }
+
 #menu ul {
-    padding:5px;
-    margin:0px;
-    background-color:#15076c;
-    list-style:none;
+  padding:5px;
+  margin:0px;
+  background-color:#15076c;
+  list-style:none;
 }
 
 #menu ul li { display: inline; }
 
 #menu ul li a {
-    padding: 5px 10px;
-    display: inline-block;
-    background-color:#15076c;
-    color: rgb(252, 246, 246);
-    text-decoration: none;
-    border-bottom:3px solid #EDEDED;
+  padding: 5px 10px;
+  display: inline-block;
+  background-color:#15076c;
+  color: rgb(252, 246, 246);
+  text-decoration: none;
+  border-bottom:3px solid #EDEDED;
 }
 
 #menu ul li a:hover {
-    background-color:#D6D6D6;
-    color: #6D6D6D;
-    border-bottom:3px solid #0f912b;
+  background-color:#D6D6D6;
+  color: #6D6D6D;
+  border-bottom:3px solid #0f912b;
+}
+
+.imgfondoPosition {
+  position: absolute;
+  top:30%;
+  left: 60%;
+}
+
+.imgfondo {
+  width: 60%;
+  height:60%;
+}
+
+.row{
+  width:500px  ;
+  margin: auto 5px auto 0px;
+  padding: 8px 0;
 }

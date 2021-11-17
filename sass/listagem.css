@@ -3,54 +3,45 @@ html, body {
 }
 
 #contenedor {
-  width: 85%;
-  height: 85%;
-  background-color: white;
-  border-radius: 9px;
-  margin: 30px auto 0px auto;
+  margin-bottom: 50px;
+  margin-top: 40px;
+  margin-left: 10%;
+  margin-right: 50px;
+  padding-bottom: 40px;
+  background-color: #EDEDED;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  border-radius: 10px;
 }
-
-.imgfondoPosition {
-  position: absolute;
-  top: 200px;
-  left: 700px;
-}
-
-.imgfondo {
-  width: 500px;
-  height: 500px;
-}
-
-
 
 .title2 {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: large;
-  color: #15076c;
-  padding: 15px;
+  font-size: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
-.ancho {
-  height: 30px;
-}
-.anchoPortada {
-  width: 50px;
-}
-.anchoTd {
-  width: 450px;
-}
-
 
 table {
   border-collapse: collapse;
-  width: 600px;
-  padding: 15px;
-  margin: 20px;
-  border-spacing: 10px 5px;
-
+  width: 500px;
+  margin-left: 40px;
 }
 
 tr {
   border: 1pt solid #15076c;
+  padding: 10px;
 }
 
 #icono {
@@ -88,5 +79,22 @@ tr {
   background-color: #D6D6D6;
   color: #6D6D6D;
   border-bottom: 3px solid #0f912b;
+}
+
+.imgfondoPosition {
+  position: absolute;
+  top: 30%;
+  left: 60%;
+}
+
+.imgfondo {
+  width: 60%;
+  height: 60%;
+}
+
+.row {
+  width: 500px;
+  margin: auto 5px auto 0px;
+  padding: 8px 0;
 }
 /*# sourceMappingURL=listagem.css.map */
