@@ -5,13 +5,10 @@ html {
 #contenedor {
   margin-top: 100px;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  border-radius: 10px;
-  padding: 20px;
-  justify-content: left;
+  align-items: center;
+  justify-content: center;
   background-color: white;
-  border-radius: 0px;
+  border-radius: 20px;
 }
 
 table {
