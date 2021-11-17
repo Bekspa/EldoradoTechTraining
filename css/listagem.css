@@ -4,11 +4,19 @@ html {
 
 #contenedor {
   margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   border-radius: 10px;
   padding: 20px;
+  -webkit-box-pack: left;
+  -ms-flex-pack: left;
   justify-content: left;
   background-color: white;
   border-radius: 0px;
@@ -62,5 +70,7 @@ tr {
   color: #6D6D6D;
   border-bottom: 3px solid #0f912b;
 }
+
+/*# sourceMappingURL=listagem.css.map */
 
 /*# sourceMappingURL=listagem.css.map */
